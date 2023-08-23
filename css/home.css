@@ -1,0 +1,146 @@
+/* NAV */
+.nav-link:hover{
+    border-bottom: 3px solid rgba(0, 137, 110, 0.867);
+}
+
+#buttonsearch:hover{
+    background-color: rgba(252, 87, 46, 0.796);
+}
+
+#dropdownhover:hover{
+    background-color: rgba(174, 214, 190, 0.637);
+}
+
+#logo{
+    margin-bottom: 9px;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+}
+
+#buttonforms:hover{
+    border-bottom: 3px solid rgba(0, 137, 110, 0.867);
+}
+
+/* NAV */
+
+#carousel-btn{
+    margin-bottom: 150px;
+}
+
+#carouselExampleAutoplaying .carousel-item img{
+    height:70vh;
+}
+
+#carouselExampleAutoplaying .carousel-item::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: 
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.563)
+      );
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+}
+
+#header1{
+    padding: 1px;
+}
+
+#divider1{
+    height: 84vh;
+    background-repeat: no-repeat;
+    margin-top: -390px;;
+}
+
+#innercard1{
+    margin-left: auto
+}
+
+#cards1row{
+    margin-top: -95px;
+}
+
+#cards1{
+    padding-bottom: 50px;
+    margin-top: -20px;
+}
+
+#cards2{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.box-shadow{
+    box-shadow: 5px 5px 10px 3px rgba(122, 208, 163, 0.693);
+}
+
+#divider2{
+    height: 54vh;
+    background-repeat: no-repeat;
+    margin-top: -340px;
+}
+
+
+#divider3{
+    height: 80vh;
+    background-repeat: no-repeat;
+    margin-top: -350px;
+}
+
+
+/* CUSTOM ORANGE-ish : style="background-color: rgb(210, 235, 225);" */ 
+/* GIF : <iframe src="https://giphy.com/embed/FTJrC5fnfLseHGFC4t" width="480" height="480" frameBorder="0" allowFullScreen></iframe><p></p> */
+
+body{
+    overflow-x: hidden;
+}
+
+/* .innerrowtext:hover{
+    background-color: rgba(197, 219, 172, 0.492);
+} */
+
+.innerrowtitle:hover{
+    color:rgb(244, 137, 80);
+}
+
+.cards2inner:hover{
+    background-color: rgba(252, 232, 224, 0.807);
+}
+
+/* FOOTER */
+.footer{
+    position: fixed;
+    display: inline-block;
+    align-items:center;
+}
+
+.footer-btn{
+    background-color: green;
+    padding: 10px;
+    width: 200px;
+}
+
+#customcolor{
+    background-color: rgb(255, 202, 152);
+    color: rgb(14, 121, 93);
+}
+
+.footer-input{
+    padding: 10px;
+    width: 255px;
+    background-color:  rgba(250, 255, 253, 0.893);
+    border: none;
+    height: 55px;
+}
+
+.footer-ig-link{
+    text-decoration: none;
+}
+/* FOOTER */

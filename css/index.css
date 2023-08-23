@@ -1,0 +1,49 @@
+body{
+    background-image: url("/MP1/images/95.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    height: 350px;
+    width: 645px;
+    text-align: center;
+    margin-top: 265px;
+}
+
+
+img{
+    margin-bottom: 9px;;
+}
+
+/* li:hover{
+    background-color: rgb(34, 23, 8);
+} */
+
+.nav-link:hover{
+    border-bottom: 3px solid rgba(0, 137, 110, 0.867);
+}
+
+
+#buttons:hover{
+    color: rgb(255, 128, 43);
+}
+
+#buttons{
+    margin:5px;
+}
+
+#buttonsearch:hover{
+    background-color: rgba(252, 87, 46, 0.796);
+}
+
+#dropdownhover:hover{
+    background-color: rgba(174, 214, 190, 0.637);
+}
+
+

@@ -1,0 +1,91 @@
+/* NAV */
+.nav-link:hover{
+    border-bottom: 3px solid rgba(0, 137, 110, 0.867);
+}
+
+#buttonsearch:hover{
+    background-color: rgba(252, 87, 46, 0.796);
+}
+
+#dropdownhover:hover{
+    background-color: rgba(174, 214, 190, 0.637);
+}
+
+#logo{
+    margin-bottom: 9px;
+}
+
+li{
+    display: inline; 
+    list-style-type: none;
+}
+
+#buttonforms:hover{
+    border-bottom: 3px solid rgba(0, 137, 110, 0.867);
+}
+/* NAV */
+
+body{
+    overflow-x: hidden;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+/* CAROUSEL */
+#carousel-btn{
+    margin-bottom: 150px;
+}
+
+#carouselExampleAutoplaying .carousel-item img{
+    height:55vh;
+}
+
+#carouselExampleAutoplaying .carousel-item::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: 
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.844)
+      );
+    width: 110vw;
+    top: 0;
+    height: 100vh;
+}
+/* CAROUSEL */
+
+
+/* FOOTER */
+.footer{
+    position: fixed;
+    display: inline-block;
+    align-items:center;
+}
+
+.footer-btn{
+    background-color: green;
+    padding: 10px;
+    width: 200px;
+}
+
+#customcolor{
+    background-color: rgb(246, 187, 133);
+    color: rgb(14, 121, 93);
+}
+
+.footer-input{
+    padding: 10px;
+    width: 255px;
+    background-color:  rgba(250, 255, 253, 0.893);
+    border: none;
+    height: 55px;
+}
+
+.footer-ig-link{
+    text-decoration: none;
+}
+/* FOOTER */
