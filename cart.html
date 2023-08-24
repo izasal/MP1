@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page</title>
-    <link rel="stylesheet" href="css/about.css">
+    <title>Shopping Cart</title> 
+    <link rel="stylesheet" href="css/cart.css">
     <link rel="icon" type="image" href="https://cdn141.picsart.com/323738221030211.png?to=crop&type=webp&r=1456x1456&q=85">
     <!-- ICON -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -17,7 +17,7 @@
         <div class="container-fluid">
           <ul class="navbar-nav me-3 mb-2 mb-lg-0">                  
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"></a>
+              <a class="nav-link active" aria-current="page" href="#"></a>
               <img id="logo" src="https://cdn141.picsart.com/323738221030211.png?to=crop&type=webp&r=1456x1456&q=85" style="height: 50px; width: 50px;">
             </li>
           </ul>
@@ -74,89 +74,146 @@
 
           </div>
         </div>
-    </nav>
-    <br>
-
-    <!-- COVER PHOTO -->
-    <div class="container-fluid">
-        <div class="row">
-            <img id="headerimage" src="/MP1/images/165.png" class="img-fluid px-0" style="object-fit: cover;">
-        </div>
-    </div>
-
-     <!-- WHO -->
-     <div class="container-fluid p-4" style="background-color: rgb(255, 255, 255);">
-        <h3 class="mb-5" style="text-align: center;"><b>Who We Are</b></h3>
-        <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, suscipit iure error ad, distinctio quasi asperiores consequatur molestias eos quidem eum delectus quos. Ab dolor voluptates quasi rerum aliquam corrupti! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, suscipit iure error ad, distinctio quasi asperiores consequatur molestias eos quidem eum delectus quos. Ab dolor voluptates quasi rerum aliquam corrupti!  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, suscipit iure error ad, distinctio quasi asperiores consequatur molestias eos quidem eum delectus quos. Ab dolor voluptates quasi rerum aliquam corrupti!  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, suscipit iure error ad, distinctio quasi asperiores consequatur molestias eos quidem eum delectus quos. Ab dolor voluptates quasi rerum aliquam corrupti!
-        <br><br>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, suscipit iure error ad, distinctio quasi asperiores consequatur molestias eos quidem eum delectus quos. Ab dolor voluptates quasi rerum aliquam corrupti! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, suscipit iure error ad, distinctio quasi asperiores consequatur molestias eos quidem eum delectus quos. Ab dolor voluptates quasi rerum aliquam corrupti! 
-        <br><br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, suscipit iure error ad, distinctio quasi asperiores consequatur molestias eos quidem eum delectus quos. Ab dolor voluptates quasi rerum aliquam corrupti!</p>
-    </div>
-    <br><br>
-
-    <!-- MISSION -->
-    <div class="container-fluid bg-overlay">
-        <div class="row text-center d-flex justify-content-center" style="float: center;">
-            <h1 class="pt-5 mt-5">Our Mission :<br>GrowFresh is dedicated to alleviate the lives of our farmers while bringing color and freshness to your plate. </h1>
-            <br><br>
-        </div>
-    </div>
-    <br><br>
-
-    <!-- HEADER -->
-    <div class="container-fluid">
-        <h2 style="text-align: center"><b>Getting Started</b></h2>
-    </div>
-    <br>
-    <br>
+    </nav> 
+    <br><br><br><br>
 
     <!-- GRID -->
-    <div class="container-fluid" style="background-color: rgb(210, 235, 225);">
-        <div class="row" style="background-color: #ffffff">
-            <div class="col-md-6">
-                <img class="mb-5 img-fluid mx-auto d-block mt-1" src="/MP1/images/164.png" style="width: 300px; height: 300px;">
+    <div class="container-fluid py-3">
+        <img class="mx-auto d-block" src="/MP1/images/shopping-cart.png" style="width: 60px; height: 60px;">
+        <h2 class="text-center mt-4"> Cart </h2>
+        <center>
+        <hr style="width: 300px;">
+        </center>
+    </div>
+    <div class="container-fluid">
+        <div class="cards1 row p-2">
+            <div class="cart col-md-8 py-4 px-4">
+                <div class="title mb-3">
+                    <div class="row">
+                        <div class="col"><h5><b>Shopping Cart</b></h5></div>
+                        <div class="col align-self-center text-right text-muted">3 items</div>
+                    </div>
+                </div>    
+                <div class="row border-top border-bottom p-2">
+                    <div class="row main align-items-center">
+                        <div class="col-sm-2"><img class="cart img-fluid" src="/MP1/images/147.png"></div>
+                        <div class="col">
+                            <div class="row text-muted">Fruits</div>
+                            <div class="row">Apple</div>
+                        </div>
+                        <div class="col">
+                            <a href="#" style="text-decoration: none; color: black;">-</a><a href="#" class="border m-2" style="text-decoration: none; color:black">1</a><a href="#" style="text-decoration: none; color: black;">+</a>
+                        </div>
+                        <div class="col">₱ 720.00 <span class="close m-4">&#10005;</span> </div>
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="row main align-items-center">
+                        <div class="col-sm-2"><img class="cart img-fluid" src="/MP1/images2/5.png"></div>
+                        <div class="col">
+                            <div class="row text-muted">Meat</div>
+                            <div class="row">Chicken</div>
+                        </div>
+                        <div class="col">
+                            <a href="#" style="text-decoration: none; color: black;">-</a><a href="#" class="border m-2" style="text-decoration: none; color:black">1</a><a href="#" style="text-decoration: none; color: black;">+</a>
+                        </div>
+                        <div class="col">₱ 720.00 <span class="close m-4">&#10005;</span></div>
+                    </div>
+                </div>
+                <div class="row border-top border-bottom p-2">
+                    <div class="row main align-items-center">
+                        <div class="col-sm-2"><img class="cart img-fluid" src="/MP1/images2/6.png"></div>
+                        <div class="col">
+                            <div class="row text-muted">Dairy</div>
+                            <div class="row">Milk</div>
+                        </div>
+                        <div class="col">
+                            <a href="#" style="text-decoration: none; color: black;">-</a><a href="#" class="border m-2" style="text-decoration: none; color:black">1</a><a href="#" style="text-decoration: none; color: black;">+</a>
+                        </div>
+                        <div class="col">₱ 720.00 <span class="close m-4">&#10005;</span></div>
+                    </div>
+                </div>
+                <div class="back-to-shop mt-3"><a href="shop1.html" style="color:black">&leftarrow;</a><span class="text-muted m-3">Back to shop</span></div>
             </div>
-            <div class="col-md-6 mt-2">
-                <h3 class="mb-4 ms-4 mb-5" style="color: rgb(32, 193, 145);"><b>Skip the line & shop hassle-free</b></h3>
-                <p class="me-4 ms-4 mb-5" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto officiis tempora ea debitis aliquid itaque doloremque ut non sed. Odit nisi totam et in, quae delectus veritatis? Ipsam, voluptates natus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto officiis tempora ea debitis aliquid itaque doloremque ut non sed.</p>
-            </div>
-        </div>
 
-    <!-- DIVIDER -->
-    <div id="divider1" style="background-image: url('/MP1/images/Illustration3.png')"></div>
-
-        <div class="row mt-4">
-            <div class="col-md-6 mt-5">
-                <h3 class="mb-4 ms-4 mb-5" style="color: rgb(255, 130, 46)"><b>Affordable prices, reliable team, delicious produce</b></h3>
-                <p class="ms-4" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto officiis tempora ea debitis aliquid itaque doloremque ut non sed. Odit nisi totam et in, quae delectus veritatis? Ipsam, voluptates natus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto officiis tempora ea debitis aliquid itaque doloremque ut non sed.</p>
-            </div>
-            <div class="col-md-6">
-                <img class="mb-4 img-fluid mx-auto d-block mt-3" src="/MP1/images/163.png" style="width: 300px; height: 300px;">
-            </div>
-        </div>
-        <div class="row mt-4" style="background-color:  #ffffff;">
-            <div class="col-md-6">
-                <img class="mb-4 img-fluid mx-auto d-block mt-5" src="/MP1/images/166.png" style="width: 300px; height: 300px;">
-            </div>
-            <div class="col-md-6 mt-5">
-                <h3 class="mb-4 me-4 ms-4 mb-5" style="color: rgb(32, 193, 145);"><b>Support our agricultural sector, local farmers & small businesses</b></h3>
-                <p class="me-4 ms-4" style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto officiis tempora ea debitis aliquid itaque doloremque ut non sed. Odit nisi totam et in, quae delectus veritatis? Ipsam, voluptates natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto officiis tempora ea debitis aliquid itaque doloremque ut non sed.</p>
+            <div class="summary col-md-4 p-5" style="background-color: rgba(226, 226, 226, 0.485);">
+                <div><h5><b>Summary</b></h5></div>
+                <hr>
+                <div class="row">
+                    <div class="col" style="padding-left: 3;">ITEMS 3</div>
+                    <div class="col text-right">₱ 720.00</div>
+                </div>
+                <br>
+                <form>
+                    <p>SHIPPING</p>
+                    <select class="p-1 w-100">
+                        <option class="text-muted">Standard-Delivery - ₱ 20.00</option>
+                        <option class="text-muted">Express-Delivery - ₱ 30.00</option>
+                    </select>
+                    <br><br>
+                    <p>DELIVERY DATE SCHEDULE</p>
+                    <input id="date" type="date" placeholder="dd/mm/yyyy" class="p-1 w-100">
+                    <br><br>
+                    <select class="p-1 w-100">
+                        <option class="text-muted">Select a delivery time.</option>
+                        <option class="text-muted">Delivery 09:00 AM to 12:00 PM</option>
+                        <option class="text-muted">Delivery 02:00 PM to 06:00 PM</option>
+                    </select>
+                    <br><br>
+                    <p>DISCOUNT CODE</p>
+                    <input id="code" placeholder="Enter your code" class="w-100">
+                </form>
+                <br>
+                <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                    <div class="col">TOTAL PRICE</div>
+                    <div class="col text-right">₱ 720.00</div>
+                </div>
+                <br>
+                <a class="btn w-50" href="#" role="button" style="background-color: rgb(246, 187, 133); color: rgb(63, 63, 63);"> 🌼 CHECKOUT</a>
             </div>
         </div>
     </div>
-    <br><br><br>
-
-    <!-- JOIN -->
-    <div class="container-fluid bg-overlay2">
-        <div class="row text-center d-flex justify-content-center" style="float: center;">
-            <h2 class="pt-4 mt-5"><b>Interested in joining us?</b><br></h2>
-            <p class="fs-5">Join today and start getting fresh produce at an affordable price.</p>
-            <br>
-            <a class="btn btn-outline-success" style="background-color: rgba(241, 241, 241, 0.989); width: 150px;" href="#" role="button">Link</a>
+    <br><br>
+    <hr><br><br>
+    
+    <!-- CARD -->
+    <div class="container-fluid p-3">
+        <h2><b>Leafy Greens</b></h2>
+        <div class="container-fluid row col-12 m-3">
+            <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><h5 class="card-title mt-3">Kale</h5></li>
+                <li><p class="card-text">₱720</p></li>
+                <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
+            </div>
+            <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><h5 class="card-title mt-3">Kale</h5></li>
+                <li><p class="card-text">₱720</p></li>
+                <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
+            </div>
+            <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><h5 class="card-title mt-3">Kale</h5></li>
+                <li><p class="card-text">₱720</p></li>
+                <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
+            </div>
+            <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><h5 class="card-title mt-3">Kale</h5></li>
+                <li><p class="card-text">₱720</p></li>
+                <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
+            </div>
         </div>
     </div>
 
-  <!-- FOOTER -->
+    <!-- ADS -->
+    <div class="container-fluid">
+        <img id="ads" src="/MP1/images2/8.png" class= "img-fluid">
+    </div>
+    <br><br>
+  
+    <!-- FOOTER -->
   <div class="container-fluid" style="background-color:rgba(238, 238, 238, 0.984);">
     <div class="row">
       <div class="col-md-4 mt-3">
