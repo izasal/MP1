@@ -26,40 +26,23 @@ li{
 
 /* NAV */
 
-body{
-    overflow-x: hidden;
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+img{
+    transition: transform .2s;
+    border-radius: 4px;
 }
 
-/* CAROUSEL */
-#carousel-btn{
-    margin-bottom: 150px;
+img.cart:hover{
+    transform:scale(1.4);
 }
 
-#carouselExampleAutoplaying .carousel-item img{
-    height:55vh;
+.btn{
+    transition: transform .2s;
+    border-radius: 10px;
 }
 
-#carouselExampleAutoplaying .carousel-item::before{
-    content: '';
-    display: block;
-    position: absolute;
-    background-image: 
-      linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0.844)
-      );
-    width: 100vw;
-    top: 0;
-    height: 100vh;
+.btn:hover{
+    transform:scale(1.1);
 }
-/* CAROUSEL */
-
-
 
 /* FOOTER */
 .footer{
@@ -91,3 +74,4 @@ body{
     text-decoration: none;
 }
 /* FOOTER */
+
