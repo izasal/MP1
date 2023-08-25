@@ -13,7 +13,7 @@
 <body>
 
      <!-- NAV BAR -->
-     <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgba(238, 238, 238, 0.984);">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgba(238, 238, 238, 0.984);">
         <div class="container-fluid">
           <ul class="navbar-nav me-3 mb-2 mb-lg-0">                  
             <li class="nav-item">
@@ -65,11 +65,11 @@
 
               <a href="cart.html" style="color: rgb(0, 92, 34);">
                 <button id="buttonforms" type="button" class="btn me-4">
-                <img src="/MP1/images/shopping-cart.png" class="me-3" style="width: 30px; height: 30px;">CART</button>
+                <img src="images/shopping-cart.png" class="me-3" style="width: 30px; height: 30px;">CART</button>
               </a><br>
               <a href="login.html" style="color: rgb(0, 92, 34);">
               <button id="buttonforms" type="button" class="btn me-4">
-                <img src="/MP1/images/user.png" class="me-2" style="width: 30px; height: 30px;">ACCOUNT</button>
+                <img src="images/user.png" class="me-2" style="width: 30px; height: 30px;">ACCOUNT</button>
               </a>
 
           </div>
@@ -79,79 +79,310 @@
 
     <!-- CAROUSEL -->
     <div class="container-fluid" style="background-color: rgb(255, 255, 255);">
-        <div class="row">
-            <div class="col-md-7 p-2">
-                <div id="carouselExampleAutoplaying" class="carousel side" data-bs-ride="carousel" style="margin-left: -20px; margin-right: -20px; margin-bottom: -15px;">
-                    <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="6000">
-                        <img src="/MP1/images/129.jpg" class="d-block w-100" style="object-fit: cover" alt="...">
+      <div class="row">
+        <div class="col-md-7 p-2">
+          <div id="carouselExampleAutoplaying" class="carousel side" data-bs-ride="carousel" style="margin-left: -20px; margin-right: -20px; margin-bottom: -15px;">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="6000">
+                        <img src="images/86.jpg" class="d-block w-100" style="object-fit: cover" alt="...">
                         <div class="carousel-caption d-md-block">
-                            <h2>Welcome to Grow Fresh</h2>
-                            <p class="fs-5">Where we deliver local produce right at your doorstep!</p>
+                            <h2>Our deliveries expand throughout Metro Manila</h2>
+                            <p class="fs-5">Sign-up now to receive a discount code!</p>
+                        </div>
+                  </div>
+                    <div class="carousel-item" data-bs-interval="6000">
+                        <img src="images/40.jpg" class="d-block w-100"style="object-fit: cover" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Fruits of All Kinds</h2>
+                            <p class="fs-5">Try our best-sellers, pineapples, now! </p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="6000">
-                        <img src="/MP1/images/125.jpg" class="d-block w-100"style="object-fit: cover" alt="...">
+                        <img src="images2/140.jpg" class="d-block w-100" style="object-fit: cover" alt="...">
                         <div class="carousel-caption d-md-block">
-                            <h2>Support Your Local Farmers</h2>
-                            <p class="fs-5">Get produce straight from farm-to-table markets.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="6000">
-                        <img src="/MP1/images/51.jpg" class="d-block w-100" style="object-fit: cover" alt="...">
-                        <div class="carousel-caption d-md-block">
-                            <h2>A Variety of Products</h2>
-                            <p class="fs-5">Fresh produce, meat, dairy products and baked goods at the convenience of your own home.</p>
+                            <h2>Check out our Blog</h2>
+                            <p class="fs-5">We post our recipes and updates on our site. Be sure to check us out!</p>
                         </div>
                     </div>
                     </div>
-            </div>
-            </div>
-            <div class="col-md-5 p-5 mt-4"> 
-            <h3 style="color: rgb(255, 151, 66);">Metro Manila</h3>
-            <p class="fs-2 mt-3">Farm-to-Door Delivery Service. Get our freshest produce now🌱 </p>
-            </div>
+                </div>
         </div>
+            
+        <div class="col-md-5 p-5"> 
+          <h3 style="color: rgb(255, 151, 66);">Metro Manila</h3>
+          <p class="fs-2 mt-3">Farm-to-Door Delivery Service. Get our freshest produce now🌱 </p>
+        </div>
+
+      </div>
     </div>
     <br><br>
 
-    <!-- CARDS -->
-    <div class="container-fluid p-4 ms-4">
+    <!-- CARD -->
+    <div class="container-fluid p-3">
+      <h2><b>Leafy Greens</b></h2>
+      <div class="container-fluid row col-12 m-3">
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Kale</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/6.png" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Collard Greens</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/7.jpg" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Spinach</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/8.jpg" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Chard</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+            <li><img src="images/9.png" class="card-img-top mt-2" alt="..."></li>
+            <li><h5 class="card-title mt-3">Watercress</h5></li>
+            <li><p class="card-text">₱720</p></li>
+            <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+            <li><img src="images/10.png" class="card-img-top mt-2" alt="..."></li>
+            <li><h5 class="card-title mt-3">Romaine Lettuce</h5></li>
+            <li><p class="card-text">₱720</p></li>
+            <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+      </div>
 
+      <h2><b>Cruciferous</b></h2>
+      <div class="container-fluid row col-12 m-3">
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images2/2.jpg" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Cabbage</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/9.jpg" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Broccoli</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/10.jpg" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Cauliflower,</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/11.jpg" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Bok Choy</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+      </div>
+
+
+       <!-- ADS -->
+     <div class="container-fluid">
+      <img id="ads" src="images/1.png" class= "img-fluid">
+  </div>
+  <br><br>
+  
+      <h2><b>Root</b></h2>
+      <div class="container-fluid row col-12 m-3">
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images2/3.jpg" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Potatoes</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/151.png" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Carrots</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/12.jpg" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Onion & Shallots</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/15.png" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Sweet Potatoes</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+      </div>
+
+      <h2><b>Fruits</b></h2>
+      <div class="container-fluid row col-12 m-3">
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/147.png" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Apple</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/139.png" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Strawberries</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/148.png" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Kiwi</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+              <li><img src="images/149.png" class="card-img-top mt-2" alt="..."></li>
+              <li><h5 class="card-title mt-3">Watermelon</h5></li>
+              <li><p class="card-text">₱720</p></li>
+              <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+            <li><img src="images/13.jpg" class="card-img-top mt-2" alt="..."></li>
+            <li><h5 class="card-title mt-3">Oranges</h5></li>
+            <li><p class="card-text">₱720</p></li>
+            <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+            <li><img src="images/16.png" class="card-img-top mt-2" alt="..."></li>
+            <li><h5 class="card-title mt-3">Mangoes</h5></li>
+            <li><p class="card-text">₱720</p></li>
+            <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+            <li><img src="images/17.png" class="card-img-top mt-2" alt="..."></li>
+            <li><h5 class="card-title mt-3">Banana</h5></li>
+            <li><p class="card-text">₱720</p></li>
+            <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+            <li><img src="images/18.png" class="card-img-top mt-2" alt="..."></li>
+            <li><h5 class="card-title mt-3">Tomatoes</h5></li>
+            <li><p class="card-text">₱720</p></li>
+            <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+          </div>
+          <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
+            <li><img src="images/15.jpg" class="card-img-top mt-2" alt="..."></li>
+            <li><h5 class="card-title mt-3">Blueberries</h5></li>
+            <li><p class="card-text">₱720</p></li>
+            <li><button class="btn mt-2" style="background-color: rgb(235, 235, 235);" data-bs-toggle="modal" data-bs-target="#exampleModal" role="button">Add to cart</a></li>
+      </div>
+    </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              <div class="row title">
+                <div class="col"><h4><b>Shopping Cart</b></h5></div>
+                <div class="col align-self-center text-right text-muted">3 items</div>
+              </div>  
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="cart col-md-10">
+              <div class="row border-top border-bottom p-2">
+                  <div class="row main align-items-center">
+                      <div class="col-sm-6"><img class="cart img-fluid" src="images/147.png"></div>
+                      <div class="col">
+                          <div class="row text-muted">Fruits</div>
+                          <div class="row">Apple</div>
+                      </div>
+                      <div class="col">
+                          <a href="#" style="text-decoration: none; color: black;">-</a><a href="#" class="border m-2" style="text-decoration: none; color:black">1</a><a href="#" style="text-decoration: none; color: black;">+</a>
+                      </div>
+                      <div class="col">₱ 720.00 <span class="close m-4">&#10005;</span> </div>
+                  </div>
+              </div>
+              <div class="row p-2">
+                  <div class="row main align-items-center">
+                      <div class="col-sm-6"><img class="cart img-fluid" src="images2/5.png"></div>
+                      <div class="col">
+                          <div class="row text-muted">Meat</div>
+                          <div class="row">Chicken</div>
+                      </div>
+                      <div class="col">
+                          <a href="#" style="text-decoration: none; color: black;">-</a><a href="#" class="border m-2" style="text-decoration: none; color:black">1</a><a href="#" style="text-decoration: none; color: black;">+</a>
+                      </div>
+                      <div class="col">₱ 720.00 <span class="close m-4">&#10005;</span></div>
+                  </div>
+              </div>
+              <div class="row border-top border-bottom p-2">
+                  <div class="row main align-items-center">
+                      <div class="col-sm-6"><img class="cart img-fluid" src="images2/6.png"></div>
+                      <div class="col">
+                          <div class="row text-muted">Dairy</div>
+                          <div class="row">Milk</div>
+                      </div>
+                      <div class="col">
+                          <a href="#" style="text-decoration: none; color: black;">-</a><a href="#" class="border m-2" style="text-decoration: none; color:black">1</a><a href="#" style="text-decoration: none; color: black;">+</a>
+                      </div>
+                      <div class="col">₱ 720.00 <span class="close m-4">&#10005;</span></div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" style="background-color: rgba(221, 221, 221, 0.715); color:rgb(43, 43, 43); border: 0px;" data-bs-dismiss="modal">Close</button>
+            <a href="cart.html">
+              <button type="button" class="btn" style="background-color: rgb(250, 210, 173); color: rgb(63, 63, 63);">Proceed to Cart</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARDS -->
+    <!-- <div class="container-fluid p-3">
         <h2><b>Leafy Greens</b></h2>
         <div class="row col-12">
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
@@ -161,31 +392,31 @@
         <h2 class="mt-4"><b>Cruciferous</b></h2>
         <div class="row col-12">
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
-                <li><img src="/MP1/images2/2.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/2.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Cabbage</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
@@ -195,25 +426,25 @@
         <h2 class="mt-4"><b>Root</b></h2>
         <div class="row col-12">
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
-                <li><img src="/MP1/images2/3.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/3.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Potatoes</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
@@ -223,75 +454,76 @@
         <h2 class="mt-4"><b>Fruits</b></h2>
         <div class="row col-12">
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
-                <li><img src="/MP1/images/147.png" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images/147.png" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Apple</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
             <div class="cards2inner card m-3 rounded-4" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;">
-                <li><img src="/MP1/images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
+                <li><img src="images2/1.jpg" class="card-img-top mt-2" alt="..."></li>
                 <li><h5 class="card-title mt-3">Kale</h5></li>
                 <li><p class="card-text">₱720</p></li>
                 <li><a class="btn mt-2" style="background-color: rgb(235, 235, 235);" href="#" role="button">Add to cart</a></li>
             </div>
         </div>
-        
-    </div>
+    </div> -->
 
-     <!-- FOOTER -->
-   <div class="container-fluid" style="background-color:rgba(238, 238, 238, 0.984);">
+  
+
+    <!-- FOOTER -->
+  <div class="container-fluid" style="background-color:rgba(238, 238, 238, 0.984);">
     <div class="row">
       <div class="col-md-4 mt-3">
         <ul>
-          <li><img class="p-1" src="/MP1/images/logo.png"style="height: 95px; width: 95px;"></li>
+          <li><img class="p-1" src="images/logo.png"style="height: 95px; width: 95px;"></li>
           <hr style="color: green; width: 250px;">
           <p style="font-size: 30px; color: rgb(32, 193, 145);"><b><span style="color: rgb(255, 130, 46)">Grow</span>Fresh</b></p>
           <li><p class="card-text">Sign up to our newsletter. </p></li>
@@ -336,9 +568,9 @@
         <br>
         <h4 style="margin-left: 56px; color: rgb(24, 140, 99)"><b>Get in touch</b></h4>
         <ul class="ms-4">
-          <li><img class="me-2" style="height: 20px; width: 20px" src="/MP1/images/telephone.png">
+          <li><img class="me-2" style="height: 20px; width: 20px" src="images/telephone.png">
             <a style="color: rgb(72, 72, 72);" href="#">+63 123 456 7890</a></li><br>
-          <li><img class="me-2" style="height: 20px; width: 20px" src="/MP1/images/email.png">
+          <li><img class="me-2" style="height: 20px; width: 20px" src="images/email.png">
             <a style="color: rgb(72, 72, 72);" href="#">Email Us</a></li>
         </ul>
       </div>
@@ -347,22 +579,22 @@
         <h5 class="text-muted" style="text-align: center;"> 
           <a href="#"style="text-decoration:none; color: rgb(24, 140, 99);">@grow.fresh</a></h5>
         <ul class="text-center me-4">
-          <li><img class="rounded-4 p-1" src="/MP1/images/40.jpg" style="height: 110px; width: 110px;"></li>
-          <li><img class="rounded-4 p-1" src="/MP1/images/98.jpg" style="height: 110px; width: 110px;"></li>
-          <li><img class="rounded-4 p-1" src="/MP1/images/111.jpg" style="height: 110px; width: 110px;"></li>
+          <li><img class="rounded-4 p-1" src="images/40.jpg" style="height: 110px; width: 110px;"></li>
+          <li><img class="rounded-4 p-1" src="images/98.jpg" style="height: 110px; width: 110px;"></li>
+          <li><img class="rounded-4 p-1" src="images/111.jpg" style="height: 110px; width: 110px;"></li>
           <br>
           <br>
           <div class="m-4">
             <li><a href="#" style="text-decoration: none;">
-              <img class="m-2" src="/MP1/images/instagram (1).png" style="height: 36px; width: 36px;"></a></li>
+              <img class="m-2" src="images/instagram (1).png" style="height: 36px; width: 36px;"></a></li>
             <li><a href="#"style="text-decoration: none;">
-              <img class="m-2" src="/MP1/images/facebook-logo.png" style="height: 36px; width: 36px;"></a></li>
+              <img class="m-2" src="images/facebook-logo.png" style="height: 36px; width: 36px;"></a></li>
             <li><a href="#" style="text-decoration: none;">
-              <img class="m-2" src="/MP1/images/twitter.png" style="height: 36px; width: 36px;"></a></li>
+              <img class="m-2" src="images/twitter.png" style="height: 36px; width: 36px;"></a></li>
             <li><a href="#" style="text-decoration: none;">
-              <img class="m-2" src="/MP1/images/tiktok.png" style="height: 36px; width: 36px;"></a></li>
+              <img class="m-2" src="images/tiktok.png" style="height: 36px; width: 36px;"></a></li>
             <li><a href="#" style="text-decoration: none;">
-              <img class="m-2" src="/MP1/images/youtube.png" style="height: 36px; width: 36px;"></a></li>
+              <img class="m-2" src="images/youtube.png" style="height: 36px; width: 36px;"></a></li>
           </div>
         </ul>
       </div>
@@ -375,6 +607,7 @@
       </div>
     </div>
   </div>
+  
 
 
     
