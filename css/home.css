@@ -144,3 +144,16 @@ body{
     text-decoration: none;
 }
 /* FOOTER */
+
+img{
+    transition: transform .2s;
+    border-radius: 2px;
+}
+
+img.carts:hover{
+    transform:scale(1.2);
+}
+
+.quicklinks:hover{
+    color:rgb(247, 107, 32)!important;
+}

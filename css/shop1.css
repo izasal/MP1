@@ -34,9 +34,9 @@ body{
 }
 
 /* CAROUSEL */
-#carousel-btn{
+/* #carousel-btn{
     margin-bottom: 150px;
-}
+} */
 
 #carouselExampleAutoplaying .carousel-item img{
     height:55vh;
@@ -97,4 +97,17 @@ body{
 
 .btn:hover{
     transform:scale(1.1);
+}
+
+/* img{
+    transition: transform .2s;
+    border-radius: 4px;
+}
+
+img.card:hover{
+    transform:scale(1.1);
+} */
+
+.quicklinks:hover{
+    color:rgb(247, 107, 32)!important;
 }

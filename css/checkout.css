@@ -1,5 +1,5 @@
 body{
-    background-image: url("/MP1/images/167.png");
+    background-image: url("/images/167.png");
     height: 100vh;
 }
 
@@ -27,3 +27,6 @@ body{
     transform:scale(1.05);
 }
 
+.accordion-button:after {
+    display: none;
+   }

@@ -91,3 +91,7 @@ body{
     text-decoration: none;
 }
 /* FOOTER */
+
+.quicklinks:hover{
+    color:rgb(247, 107, 32)!important;
+}

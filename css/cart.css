@@ -75,3 +75,6 @@ img.cart:hover{
 }
 /* FOOTER */
 
+.quicklinks:hover{
+    color:rgb(247, 107, 32)!important;
+}
