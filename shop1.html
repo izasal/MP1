@@ -13,7 +13,7 @@
 <body>
 
      <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgba(238, 238, 238, 0.984);">
+    <nav class="navbar navbar-expand-xl fixed-top" style="background-color: rgba(238, 238, 238, 0.984);">
         <div class="container-fluid">
           <ul class="navbar-nav me-3 mb-2 mb-lg-0">                  
             <li class="nav-item">
@@ -38,7 +38,6 @@
                 <ul class="dropdown-menu" style="background-color: rgb(247, 247, 247);">
                   <li><a id="dropdownhover" class="dropdown-item" href="aboutus.html">About Us</a></li>
                   <li><a id="dropdownhover" class="dropdown-item" href="ourpartners.html">Our Partners </a></li>
-                  <li><hr class="dropdown-divider"></li>
                   <li><a id="dropdownhover" class="dropdown-item" href="faqs.html">Frequently Asked Questions</a></li>
                 </ul>
 
@@ -81,7 +80,7 @@
     <div class="container-fluid" style="background-color: rgb(255, 255, 255);">
       <div class="row">
         <div class="col-md-7 p-2">
-          <div id="carouselExampleAutoplaying" class="carousel side" data-bs-ride="carousel" style="margin-left: -20px; margin-right: -20px; margin-bottom: -15px;">
+          <div id="carouselExampleAutoplaying" class="carousel side" data-bs-ride="carousel" style="margin-left: -8px; margin-right: -8px; margin-bottom: -15px;">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="6000">
                         <img src="images/86.jpg" class="d-block w-100" style="object-fit: cover" alt="...">
@@ -187,13 +186,6 @@
           </div>
       </div>
 
-
-       <!-- ADS -->
-     <div class="container-fluid">
-      <img id="ads" src="images/1.png" class= "img-fluid">
-  </div>
-  <br><br>
-  
       <h2><b>Root</b></h2>
       <div class="container-fluid row col-12 m-3">
           <div class="cards2inner card m-2" style="width: 14rem; height: 18rem; text-align: center; object-fit: center;"> 
@@ -281,6 +273,12 @@
     </div>
     </div>
 
+     <!-- ADS -->
+  <div class="container-fluid" style="background-image: url(images2/54.jpg);">
+    <img id="ads" src="images2/54.jpg" class= "img-fluid">
+  </div>
+  <br><br>
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -289,7 +287,7 @@
             <h1 class="modal-title fs-5" id="exampleModalLabel">
               <div class="row title">
                 <div class="col"><h4><b>Shopping Cart</b></h5></div>
-                <div class="col align-self-center text-right text-muted">3 items</div>
+                <div class="col align-self-center text-right text-muted fs-6">3 items</div>
               </div>  
             </h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -297,16 +295,17 @@
           <div class="modal-body">
             <div class="cart col-md-10">
               <div class="row border-top border-bottom p-2">
-                  <div class="row main align-items-center">
+                  <div class="row main align-items-center ">
                       <div class="col-sm-6"><img class="cart img-fluid" src="images/147.png"></div>
                       <div class="col">
                           <div class="row text-muted">Fruits</div>
                           <div class="row">Apple</div>
                       </div>
                       <div class="col">
-                          <a href="#" style="text-decoration: none; color: black;">-</a><a href="#" class="border m-2" style="text-decoration: none; color:black">1</a><a href="#" style="text-decoration: none; color: black;">+</a>
+                          <!-- <a href="#" style="text-decoration: none; color: black;">-</a><a href="#" class="border m-2" style="text-decoration: none; color:black">1</a><a href="#" style="text-decoration: none; color: black;">+</a> -->
+                          <span style="text-decoration: none; color: black;">-</span><span class="border m-2" style="text-decoration: none; color:black">1</span><span style="text-decoration: none; color: black;">+</a>
                       </div>
-                      <div class="col">₱ 720.00 <span class="close m-4">&#10005;</span> </div>
+                      <div class="col ms-5">₱720.00 </div>
                   </div>
               </div>
               <div class="row p-2">
@@ -317,9 +316,9 @@
                           <div class="row">Chicken</div>
                       </div>
                       <div class="col">
-                          <a href="#" style="text-decoration: none; color: black;">-</a><a href="#" class="border m-2" style="text-decoration: none; color:black">1</a><a href="#" style="text-decoration: none; color: black;">+</a>
+                        <span style="text-decoration: none; color: black;">-</span><span class="border m-2" style="text-decoration: none; color:black">1</span><span style="text-decoration: none; color: black;">+</a>
                       </div>
-                      <div class="col">₱ 720.00 <span class="close m-4">&#10005;</span></div>
+                      <div class="col ms-5">₱720.00</div>
                   </div>
               </div>
               <div class="row border-top border-bottom p-2">
@@ -330,9 +329,10 @@
                           <div class="row">Milk</div>
                       </div>
                       <div class="col">
-                          <a href="#" style="text-decoration: none; color: black;">-</a><a href="#" class="border m-2" style="text-decoration: none; color:black">1</a><a href="#" style="text-decoration: none; color: black;">+</a>
+                        <span style="text-decoration: none; color: black;">-</span><span class="border m-2" style="text-decoration: none; color:black">1</span><span style="text-decoration: none; color: black;">+</a>
                       </div>
-                      <div class="col">₱ 720.00 <span class="close m-4">&#10005;</span></div>
+                      <div class="col ms-5">₱720.00 <span class="close m-4"></div>
+                      <!-- <div class="col ms-5">₱ 720.00 <span class="close m-4">&#10005;</span></div> -->
                   </div>
               </div>
             </div>
@@ -518,8 +518,8 @@
 
   
 
-    <!-- FOOTER -->
-  <div class="container-fluid" style="background-color:rgba(238, 238, 238, 0.984);">
+   <!-- FOOTER -->
+   <div class="container-fluid" style="background-color:rgba(238, 238, 238, 0.984);">
     <div class="row">
       <div class="col-md-4 mt-3">
         <ul>
@@ -531,38 +531,35 @@
           <form>
           <li>
               <input class="footer-input" type="email" name="email" placeholder="Email" autocomplete="off" required></li>
-          <br>
+              <li>
+                <p class="mt-2 me-4" style="font-size: 15px;">By providing your email address, you agree to our <a href="#" style="color: rgb(69, 138, 69);">Terms of Service</a> and <a href="#" style="color: rgb(75, 152, 75);">Privacy Policy</a>.</p>
+              </li>
           <br>
           <li><a href="index.html">
             <button id="customcolor" type="submit" class="footer-btn rounded-3 border border-1"><b>Sign Up</button></b></a></li>
           </form>
             <br>
             <br>
-          <li>
-            <p>By providing your email address, you agree to our <a href="#" style="color: rgb(69, 138, 69);">Terms of Service</a> and <a href="#" style="color: rgb(75, 152, 75);">Privacy Policy</a>.</p>
-          </li>
-
         </ul>
       </div>
 
       <div class="col-md-4 mt-5" style="text-decoration: none;">
         <h4 style="margin-left: 56px; color: rgb(24, 140, 99)"><b>Quick Links</b></h4>
         <ul class="ms-4">
-          <li><a href="home.html"  class="text-decoration-none text-dark"> ✻ Home</a></li>
+          <li><a href="home.html"  class="quicklinks text-decoration-none" style="color: black;"> ✻ Home</a></li>
           <br> 
-          <li><a href="aboutus.html" class="text-decoration-none text-dark"> ✻ About Us</a></li>
+          <li><a href="aboutus.html" class="quicklinks text-decoration-none text-dark"> ✻ About Us</a></li>
           <br>
-          <li><a href="ourpartners.html" class="text-decoration-none text-dark"> ✻ Our partners</a></li>
+          <li><a href="ourpartners.html" class="quicklinks text-decoration-none text-dark"> ✻ Our partners</a></li>
           <br>
-          <li><a href="faqs.html" class="text-decoration-none text-dark"> ✻ FAQs</a></li>
+          <li><a href="faqs.html" class="quicklinks text-decoration-none text-dark"> ✻ FAQs</a></li>
           <br>
-          <li><a href="shop1.html" class="text-decoration-none text-dark"> ✻ Organic Produce</a></li>
+          <li><a href="shop1.html" class="quicklinks text-decoration-none text-dark"> ✻ Organic Produce</a></li>
           <br>
-          <li><a href="shop2.html" class="text-decoration-none text-dark"> ✻ Meat & Dairy Products</a></li>
+          <li><a href="shop2.html" class="quicklinks text-decoration-none text-dark"> ✻ Meat & Dairy Products</a></li>
           <br>
-          <li><a href="contact.html" class="text-decoration-none text-dark"> ✻ Contact Us</a></li>
+          <li><a href="contact.html" class="quicklinks text-decoration-none text-dark"> ✻ Contact Us</a></li>
           <br>
-          <li><a href="attribution.html" class="text-decoration-none text-dark"> ✻ Attribution</a></li>
           <br>
         </ul>
         <br>
@@ -602,7 +599,7 @@
 
     <div class="row pt-4" >
       <div class="col-12" style="text-align: center; font-size: 12px;">
-        <p> © GrowFresh. </p> 
+        <p> © All rights go to their respectful owners. </p> 
           <p><u>Privacy Policy</u> │ <u>Refund Policy</u> │ <u>Shipping Policy</u> │ <u>Terms of Service </u></p>
       </div>
     </div>
