@@ -35,6 +35,8 @@ li{
 body{
     background-image: url("/MP1/images/167.png");
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* FOOTER */

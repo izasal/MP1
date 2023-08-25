@@ -1,0 +1,29 @@
+body{
+    background-image: url("/MP1/images/167.png");
+    height: 100vh;
+}
+
+/* div.shipping{
+    margin: 0;
+    padding: 0;
+} */
+
+
+.btn{
+    transition: transform .2s;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+}
+
+#shipping{
+    transition: transform .2s;
+    border-radius: 1px;
+}
+
+#shipping:hover{
+    transform:scale(1.05);
+}
+

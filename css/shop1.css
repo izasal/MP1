@@ -89,3 +89,12 @@ body{
     text-decoration: none;
 }
 /* FOOTER */
+
+.btn{
+    transition: transform .2s;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+}
