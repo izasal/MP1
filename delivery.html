@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="icon" type="image" href="https://cdn141.picsart.com/323738221030211.png?to=crop&type=webp&r=1456x1456&q=85">
+    <!-- ICON -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+     <!-- FORM -->
+     <div class=" container-fluid my-5">        
+        <div class="row justify-content-center">
+            <div class="col-xl-10">
+                <div class="card shadow-lg pt-4">
+                    <div class="header container text-center pt-3">
+                        <img id="logo" src="https://cdn141.picsart.com/323738221030211.png?to=crop&type=webp&r=1456x1456&q=85" style="height: 75px; width: 80px;">
+                        <h1 style="font-size: 33px; color: rgb(32, 193, 145);"><b><span style="color: rgb(255, 130, 46)">Grow</span>Fresh</b></h1>
+                    </div>
+
+                    <div class="row  mx-auto justify-content-center text-center">
+                        <div class="col-12 mt-3 ">
+                            <nav aria-label="breadcrumb" class="second ">
+                                <ol class="breadcrumb indigo lighten-6 first  ">
+                                    <li class="breadcrumb-item font-weight-bold "><a class="black-text text-uppercase " href="cart.html" style="text-decoration: none; color: green;"><span class="mr-md-3 mr-1">CART</span></a><i class="fa fa-angle-double-right " aria-hidden="true"></i></li>
+                                    <li class="breadcrumb-item font-weight-bold"><a class="black-text text-uppercase" href="checkout.html" style="text-decoration: none; color: green"><span class="mr-md-3 mr-1">Information</span></a><i class="fa fa-angle-double-right text-uppercase " aria-hidden="true"></i></li>
+                                    <li class="breadcrumb-item font-weight-bold"><a class="black-text text-uppercase active-2" href="delivery.html" style="text-decoration: none; color: green;"><span class="mr-md-3 mr-1">Delivery & Payment</span></a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    <br>
+                    
+                    <!-- FORM -->
+                    <div class="row justify-content-around">
+                        <div class="col-md-5">
+                            <div class="card border-0">
+                            <form>
+                                <div class="card-header pb-0">
+                                    <h5 class="card-title space">Shipping Method</h2>
+                                </div>
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <div id="shipping" class="container rounded-2 border border-success-dark" style="background-color:  rgba(246, 188, 133, 0.212);">
+                                            <a href="#" style="text-decoration: none; color: rgb(62, 62, 62);">
+                                            <div class="row mb-0">
+                                                <div class="col">
+                                                    <p class="mt-3"><b>Subsidized Shipping</b></p>
+                                                </div>
+                                                <div class="col">
+                                                    <p class="mt-4" style="text-align: right;"><b>FREE</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-0">
+                                                <div class="col">
+                                                    <p style="font-size: 14px;">For orders 1000PHP and above.</p>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-header pb-0">
+                                    <h5 class="card-title space">Billing  Address</h2>
+                                        <p style="font-size: 14px;">Select the address that will match your payment method.</p>
+                                </div>
+                                <div class="card-body">
+                                    <div class="form-group">
+
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="flexRadioChecked" id="flexRadioChecked6" checked>
+                                                        <label class="form-check-label" for="flexRadioCheckedt6">
+                                                          Same as shipping address
+                                                        </label>
+                                                    </div>
+                                                </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                          Use a different billing address
+                                                        </label>
+                                                      </div>
+                                                  </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse"  aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <div class="row">
+                                                            <div class="form-group">
+                                                                <label for="NAME" class="small text-muted mt-2">Address</label>
+                                                                <input type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter your address">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group">
+                                                                <label for="NAME" class="small text-muted mt-2">Apartment, suite, etc.</label>
+                                                                <input type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row no-gutters">
+                                                            <div class="col-sm-6 pr-sm-2">
+                                                                <div class="form-group">
+                                                                    <label for="NAME" class="small text-muted mb-1 mt-2">Postal Code</label>
+                                                                    <input type="number" class="form-control form-control-sm mt-2" name="NUMBER" id="NUMBER" aria-describedby="helpId" placeholder="Enter postal code">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <label for="NAME" class="small text-muted mb-1 mt-2">City</label>
+                                                                    <!-- Metro Manila-->
+                                                                    <select id="city" name="city" class="form-select text-muted mt-1" style="font-size: 15px;">
+                                                                        <option value="">Select City</option>
+                                                                        <option value="Caloocan">Caloocan</option>
+                                                                        <option value="Calumpang">Calumpang</option>
+                                                                        <option value="Dasmariñas Village">Dasmariñas Village</option>
+                                                                        <option value="Ermita">Ermita</option>
+                                                                        <option value="Intramuros">Intramuros</option>
+                                                                        <option value="Las Piñas">Las Piñas</option>
+                                                                        <option value="Makati">Makati</option>
+                                                                        <option value="Malabon">Malabon</option>
+                                                                        <option value="Malate">Malate</option>
+                                                                        <option value="Mandaluyong">Mandaluyong</option>
+                                                                        <option value="Manila">Manila</option>
+                                                                        <option value="Marikina">Marikina</option>
+                                                                        <option value="Muntinlupa">Muntinlupa</option>
+                                                                        <option value="National Capital Region">National Capital Region</option>
+                                                                        <option value="Navotas">Navotas</option>
+                                                                        <option value="Niugan">Niugan</option>
+                                                                        <option value="Paco">Paco</option>
+                                                                        <option value="Pandacan">Pandacan</option>
+                                                                        <option value="Parañaque">Parañaque</option>
+                                                                        <option value="Pasay">Pasay</option>
+                                                                        <option value="Pasig">Pasig</option>
+                                                                        <option value="Pateros">Pateros</option>
+                                                                        <option value="Port Area">Port Area</option>
+                                                                        <option value="Quezon City">Quezon City</option>
+                                                                        <option value="Quiapo">Quiapo</option>
+                                                                        <option value="Sambayanihan People's Village">Sambayanihan People's Village</option>
+                                                                        <option value="San Juan">San Juan</option>
+                                                                        <option value="San Miguel">San Miguel</option>
+                                                                        <option value="Santa Ana">Santa Ana</option>
+                                                                        <option value="Santa Cruz">Santa Cruz</option>
+                                                                        <option value="Singkamas">Singkamas</option>
+                                                                        <option value="Taguig">Taguig</option>
+                                                                        <option value="Tanza">Tanza</option>
+                                                                        <option value="Tanza">Tanza</option>
+                                                                        <option value="Tondo">Tondo</option>
+                                                                        <option value="Valenzuela">Valenzuela</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group">
+                                                                <label for="NAME" class="small text-muted mt-2">Phone</label>
+                                                                <input type="number" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter your phone number">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="card-header pb-0">
+                                    <h5 class="card-title space">Payment Method</h3>
+                                        <p style="font-size: 14px;">All transactions are secure and encrypted</p>
+                                </div>
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            
+                                            <div class="accordion" id="accordionExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button" type="button"  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                                        <label class="form-check-label" for="flexRadioDefault2">
+                                                                            Credit/Debit Cards and E-Wallets
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-5">
+                                                                    <img src="/MP1/images/visa.png" style="height: 40px; width: 40px;">
+                                                                    <img src="/MP1/images/card.png" style="height: 30px; width: 40px;">
+                                                                    <img src="/MP1/images/GCash-Logo.jpg" style="height: 30px; width: 46px;">
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                    </h2>
+                                                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-sm-6 pr-sm-2">
+                                                                <div class="form-group">
+                                                                    <label for="NAME" class="small text-muted mb-1 mt-2">First Name</label>
+                                                                    <input type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter first name" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <label for="NAME" class="small text-muted mb-1 mt-2">Last Name</label>
+                                                                    <input type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter last name">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group">
+                                                                <label for="NAME" class="small text-muted mt-2">Card Number</label>
+                                                                <input type="number" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="Enter card number" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row no-gutters">
+                                                            <div class="col-sm-6 pr-sm-2">
+                                                                <div class="form-group">
+                                                                    <label for="NAME" class="small text-muted mb-1 mt-2">Expiry Date</label>
+                                                                    <input type="date" class="form-control form-control-sm mt-2" name="DATE" id="DATE" aria-describedby="helpId" placeholder="" >
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <div class="form-group">
+                                                                    <label for="NAME" class="small text-muted mb-1 mt-2">CVV</label>
+                                                                    <input type="text" class="form-control form-control-sm mt-2" name="NAME" id="NAME" aria-describedby="helpId" placeholder="CVV">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                  <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                              Cash on Delivery (COD)
+                                                            </label>
+                                                          </div>
+                                                    </button>
+                                                  </h2>
+                                                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                    <!-- <div class="accordion-body">
+                                                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                    </div> -->
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                            <div class="form-check text-muted mt-3" style="font-size: 14px;">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                  Save this information for next time
+                                                </label>
+                                            </div>
+                                            <div class="back-to-shop mt-3"><a href="checkout.html" style="color:black">&leftarrow;</a><span class="text-muted m-3">Back to checkout</span></div>
+                                            <br>
+
+                                            <!-- <input class="btn mt-3 p-3 w-50" type="submit" value="Pay now" style="background-color: rgb(246, 187, 133); color: rgb(76, 76, 76); font-weight:bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <br><br><br> -->
+
+                                                <!-- Button trigger modal --> 
+                                                <input class="btn mt-3 p-3 w-50" type="submit" value="Pay now" style="background-color: rgb(246, 187, 133); color: rgb(76, 76, 76); font-weight:bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                <br><br><br>
+                                                
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                    <div>
+                                                        <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <img class="m-2" src="/MP1/images/accept.png" style="height: 50px; width: 50px;"><br><br><br>
+                                                        <h5 class="modal-title" id="exampleModalLabel">Payment Successful</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <p>Your payment was successful! Thank you for being there with GrowFresh.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <a href="home.html">
+                                                                <button type="button" class="btn btn-primary" style="background-color: rgb(246, 187, 133); color: rgb(76, 76, 76); font-weight:bold;">Back to Homepage</button>
+                                                            </a>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- YOUR ORDER -->
+                        <div class="col-md-5">
+                            <div class="card border-0 ">
+                                <div class="card-header card-2">
+                                    <h5 class="card-title space">Your Order</h2>
+                                    <hr class="my-3">
+                                </div>
+                                <!-- <div class="card-header card-2">
+                                    <p class="card-text text-muted mt-md-4  mb-2 space">YOUR ORDER </p>
+                                    <hr class="my-2">
+                                </div> -->
+                                <div class="card-body pt-0">
+                                    <div class="row  justify-content-between">
+                                        <div class="col-auto col-md-7">
+                                            <div class="media flex-column flex-sm-row">
+                                                <img class=" img-fluid" src="/MP1/images/147.png" width="150" height="62">
+                                                <div class="media-body  my-auto">
+                                                    <div class="row ">
+                                                        <div class="col-auto"><p class="mb-0"><b>Apple</b></p><small class="text-muted">1.4kg</small></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=" pl-0 flex-sm-col col-auto  my-auto"> <p class="boxed-1">5</p></div>
+                                        <div class=" pl-0 flex-sm-col col-auto  my-auto "><p><b>₱ 720.00</b></p></div>
+                                    </div>
+                                    <hr class="my-2">
+                                    <div class="row  justify-content-between">
+                                        <div class="col-auto col-md-7">
+                                            <div class="media flex-column flex-sm-row">
+                                                <img class=" img-fluid " src="/MP1/images2/5.png" width="150" height="62">
+                                                <div class="media-body  my-auto">
+                                                    <div class="row ">
+                                                        <div class="col"><p class="mb-0"><b>Chicken</b></p><small class="text-muted">1.4kg</small></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pl-0 flex-sm-col col-auto  my-auto"> <p class="boxed">10</p></div>
+                                        <div class="pl-0 flex-sm-col col-auto my-auto"><p><b>₱ 720.00</b></p></div>
+                                    </div>
+                                    <hr class="my-2">
+                                    <div class="row  justify-content-between">
+                                        <div class="col-auto col-md-7">
+                                            <div class="media flex-column flex-sm-row">
+                                                <img class=" img-fluid " src="/MP1/images2/6.png" width="150" height="62">
+                                                <div class="media-body  my-auto">
+                                                    <div class="row ">
+                                                        <div class="col"><p class="mb-0"><b>Milk</b></p><small class="text-muted">1.4kg</small></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pl-0 flex-sm-col col-auto  my-auto"> <p class="boxed-1">8</p></div>
+                                        <div class="pl-0 flex-sm-col col-auto my-auto"><p><b>₱ 720.00</b></p></div>
+                                    </div>
+                                    <hr class="my-2">
+                                    <div class="row ">
+                                        <div class="col">
+                                            <div class="row justify-content-between">
+                                                <div class="col-4"><p class="mb-1"><b>Subtotal</b></p></div>
+                                                <div class="flex-sm-col col-auto"><p class="mb-1"><b>₱ 2000.00</b></p></div>
+                                            </div>
+                                            <div class="row justify-content-between">
+                                                <div class="col"><p class="mb-1"><b>Shipping</b></p></div>
+                                                <div class="flex-sm-col col-auto"><p class="mb-1"><b>₱ 0.00</b></p></div>
+                                            </div>
+                                            <div class="row justify-content-between">
+                                                <div class="col-4"><p ><b>Total</b></p></div>
+                                                <div class="flex-sm-col col-auto"><p  class="mb-1"><b>₱ 2000.00</b></p> </div>
+                                            </div><hr class="my-0">
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row mb-5 mt-4 ">
+                                        <div class="col-md-7 col-lg-6 mx-auto"><button type="button" class="btn btn-block btn-outline-primary btn-lg">ADD GIFT CODE</button></div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
